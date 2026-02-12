@@ -1,0 +1,6 @@
+@SphereTable_kendo_HostAddress = http://localhost:5231
+
+GET {{SphereTable_kendo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
