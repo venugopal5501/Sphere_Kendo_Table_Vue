@@ -1,0 +1,245 @@
+/* Global css variables declaration */
+@import '../css/Variables.css';
+
+/* Header Styles */
+#sb-header {
+  margin-left: 60px;
+  width: calc(100% - 60px);
+  background-color: #103c5a;
+  background-color: var(--primary-blue-color);
+  background-image: none;
+  color: white;
+  padding: 5px 0;
+  min-height: 60px;
+  z-index: 9;
+}
+
+#sb-header .v-toolbar__content {
+  padding-left: 6px;
+  padding-right: 20px;
+  height: 50px !important;
+}
+
+#sb-header .v-toolbar__title {
+  color: #00f9fd;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+#sb-header kbd {
+  margin-left: 4px;
+}
+
+#sb-header .sphere-logo {
+  display: inherit;
+}
+
+.main-hamburger-menu::before {
+  display: none;
+}
+
+.main-hamburger-menu {
+  margin: 0 !important;
+}
+
+.main-hamburger-menu .v-btn__content {
+  display: block;
+}
+
+.main-hamburger-menu .v-btn__content .line-1,
+.main-hamburger-menu .v-btn__content .line-2,
+.main-hamburger-menu .v-btn__content .line-3 {
+  height: 3px;
+  width: 26px;
+  position: relative;
+  background-color: #103c5a;
+  background-color: var(--primary-blue-color);
+  margin: 4px;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-hamburger-menu.sb-sidebar-open .line-2 {
+  display: none;
+}
+
+.main-hamburger-menu.sb-sidebar-open .line-1 {
+  transform: rotate(-45deg);
+  transition: all 0.3s ease-in-out;
+  top: 4px;
+}
+
+.main-hamburger-menu.sb-sidebar-open .line-3 {
+  transform: rotate(45deg);
+  transition: all 0.3s ease-in-out;
+  bottom: 4px;
+}
+
+/*
+Make the link text lighter in dark mode to increase contrast
+This is just for links inside tables to avoid conflict with other link elements
+*/
+.theme--dark td a {
+  color: lightblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover:link {
+  text-decoration: underline;
+}
+
+/* Left Menu Styles */
+.sb-nav-drawer {
+  margin-top: 60px !important;
+  z-index: 100;
+  background-color: #fff;
+  background-color: var(--color-white);
+  box-shadow: 15px 0 25px #4e4e4e0f;
+  display: flex;
+  height: 100%;
+  max-width: 270px;
+}
+
+#menuIcon {
+  position: fixed;
+  background-color: #fff;
+  background-color: var(--color-white);
+  height: 60px;
+  width: 60px;
+  line-height: 59px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.sb-nav-drawer .v-list__tile__content > .v-list__tile__title {
+  height: 24px;
+}
+
+.sb-nav-drawer .v-list__tile__action {
+  justify-content: flex-start;
+}
+
+/* Changes for when the sidebar is used in the non-vue _Layout.cshtml */
+.sb-nav-drawer.old-layout {
+  margin-top: 60px !important;
+  z-index: 100;
+  background-color: transparent;
+  box-shadow: 15px 0 25px #4e4e4e0f;
+  display: flex;
+  height: 100%;
+  max-width: 270px;
+}
+
+.sb-nav-drawer .v-list {
+  flex: 1;
+  background-color: #fff;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sb-nav-drawer.old-layout .hr-divider {
+  margin: 0;
+}
+
+.sb-nav-drawer .v-list__tile {
+  background-color: #fff;
+  padding-left: 0;
+  padding-right: 4px;
+  position: relative;
+}
+.sb-nav-drawer .v-list__tile * {
+  z-index: 9;
+}
+
+.sb-nav-drawer .v-list__tile:hover {
+  background-color: transparent !important;
+  text-decoration: unset;
+}
+
+.sb-nav-drawer .v-list__tile:after {
+  content: '';
+  width: calc(100% - 20px);
+  height: 80%;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  position: absolute;
+  left: 10px;
+  opacity: 1;
+}
+
+.sb-nav-drawer a.v-list__tile:hover:after {
+  border-color: #00538d;
+}
+
+.sb-nav-drawer .v-list__tile.v-list__tile--active:after {
+  background-color: #00538d;
+}
+
+.sb-nav-drawer .v-list__tile .v-list__tile__action {
+  min-width: 60px;
+  max-width: 60px;
+  justify-content: center;
+}
+
+.sb-nav-drawer .v-list__tile .v-list__tile__title {
+  color: #52575f;
+}
+.sb-nav-drawer .v-list__tile.v-list__tile--active .v-list__tile__title,
+.sb-nav-drawer .v-list__tile.v-list__tile--active .v-list__tile__action .v-icon,
+.sb-nav-drawer
+  .v-list__tile.v-list__tile--active
+  .v-list__tile__action.beta::after {
+  color: #fff;
+}
+
+.sb-nav-drawer .v-list__tile .v-list__tile__action .v-icon {
+  width: 25px;
+  height: 25px;
+  font-size: 25px;
+}
+
+.sb-nav-drawer .v-list__tile .v-list__tile__action.beta {
+  position: relative;
+}
+
+.sb-nav-drawer .v-list__tile .v-list__tile__action.beta::after {
+  content: '*';
+  font-family: 'Work Sans';
+  position: absolute;
+  top: 5px;
+  right: 14px;
+}
+
+/* Create spacing for the menu and global stats */
+section.main-section {
+  margin-left: 60px;
+}
+
+div#HeaderWrapper {
+  padding-left: 60px;
+}
+
+.v-icon.custom.none {
+  display: none;
+}
+
+a.header-icon-button:hover {
+  text-decoration: none;
+}
+
+.sb-logout-btn {
+  width: unset;
+  min-width: unset;
+  border-radius: 4px;
+  text-transform: initial;
+  padding: 0 12px;
+  font-weight: normal;
+  background-color: #ffffff !important;
+  color: #242424 !important;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25) !important;
+  bottom: 6px;
+  right: 5px;
+}

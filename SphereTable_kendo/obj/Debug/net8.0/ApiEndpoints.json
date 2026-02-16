@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "SphereTable_kendo.Controllers.CourseController",
+    "Method": "GetCourses",
+    "RelativePath": "api/Course",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SphereTable_kendo.Controllers.StudentController",
     "Method": "GetStudents",
     "RelativePath": "api/Student",

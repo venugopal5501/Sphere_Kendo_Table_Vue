@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SphereTable_kendo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1091102f10321a9a4804878ad92d84635fd0126b")]
 [assembly: System.Reflection.AssemblyProductAttribute("SphereTable_kendo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SphereTable_kendo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

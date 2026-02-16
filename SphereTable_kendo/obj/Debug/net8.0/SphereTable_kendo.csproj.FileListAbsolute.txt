@@ -61,6 +61,7 @@ E:\sphereTable_kendo\SphereTable_kendo\obj\Debug\net8.0\SphereTable_kendo.Assemb
 E:\sphereTable_kendo\SphereTable_kendo\obj\Debug\net8.0\SphereTable_kendo.csproj.CoreCompileInputs.cache
 E:\sphereTable_kendo\SphereTable_kendo\obj\Debug\net8.0\SphereTable_kendo.MvcApplicationPartsAssemblyInfo.cs
 E:\sphereTable_kendo\SphereTable_kendo\obj\Debug\net8.0\SphereTable_kendo.MvcApplicationPartsAssemblyInfo.cache
+E:\sphereTable_kendo\SphereTable_kendo\obj\Debug\net8.0\SphereTable_kendo.sourcelink.json
 E:\sphereTable_kendo\SphereTable_kendo\obj\Debug\net8.0\rjimswa.dswa.cache.json
 E:\sphereTable_kendo\SphereTable_kendo\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 E:\sphereTable_kendo\SphereTable_kendo\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Course": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Student": {
       "get": {
         "tags": [

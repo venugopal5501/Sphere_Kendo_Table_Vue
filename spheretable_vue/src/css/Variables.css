@@ -1,0 +1,41 @@
+/* Global css variables declaration */
+:root {
+  --global-font-size: 14px;
+  --primary-blue-color: #103c5a;
+  --btn-light-blue: #cbe9ff;
+  --color-white: #fff;
+  --body-bg-color: #ebeff4;
+  --body-font-color: #52575f;
+  --headings-color: #202020;
+  --main-header-bg-color: #00538d;
+  --table-alt-row-bg-color: #f4f5f6;
+  --link-color: #0094fb;
+  --color-gray: #687f7e;
+  --color-gray2: #6f787e;
+  --color-gray3: #f9f9f9;
+  --border-color: #e7e7e7;
+  --input-select-text-color: #053070;
+  --input-help-text-color: #a9b5c7;
+  --color-warning: #fdb913;
+  --color-error: #ff4c00;
+  --color-error-semi: #ff4c001f;
+  --subHeader-hover-text-color: #234964;
+  --subHeader-bg-color: #4a687e;
+  --table-header-bg-color: #4a687e;
+  --overlay-color: #262a34;
+  --blue-hover-color: #f2f9ff;
+  --vuetify-error: #ef5350;
+  --vuetify-success: #4caf50;
+  --vuetify-info: #448aff;
+
+  --Neutral-100: #707070;
+  --Neutral-200: #d8d8d8;
+  --Neutral-300: #999;
+  --Neutral-400: #eeeff0;
+  --Neutral-500: #a6acb0;
+  --Neutral-600: #202020;
+  --Semantic-100: #ee534f;
+  --Primary-hover: #6bc1ff;
+  --Error-hover: #e9a19f;
+  --Blue-100: #eaeef2;
+}

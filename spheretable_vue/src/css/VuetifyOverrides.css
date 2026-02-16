@@ -1,0 +1,373 @@
+/* Global css variables declaration */
+@import '../css//Variables.css';
+
+.link--text {
+  color: var(--link-color) !important;
+  caret-color: var(--link-color) !important;
+}
+
+/* Checkbox css */
+.sb_checkbox .v-messages {
+  min-height: unset;
+}
+
+.sb_checkbox.v-input--selection-controls:not(.v-input--hide-details)
+  .v-input__slot {
+  margin-bottom: 0;
+}
+
+.sb_checkbox .v-label {
+  color: #6f787e;
+  color: var(--color-gray2);
+  font-size: 1rem;
+}
+
+.sb_checkbox .v-icon.accent--text {
+  color: #0094fb !important;
+  color: var(--link-color) !important;
+}
+
+/* Radio Buttons css */
+.sb_radio {
+  margin-top: 0;
+  display: block;
+}
+
+.sb_radio .v-input__slot {
+  margin-bottom: 0 !important;
+}
+
+.sb_radio .v-messages {
+  min-height: unset;
+}
+
+/* Input Field styles */
+.theme--light.v-select .v-select__selections,
+.v-input input {
+  color: #053070 !important;
+  color: var(--input-select-text-color) !important;
+  font-size: 1rem;
+}
+
+.v-select .v-select__selections .v-chip {
+  background-color: #00538d21;
+  border-radius: 4px;
+  border: 1px solid #00538d;
+  border: 1px solid var(--main-header-bg-color);
+  color: #00538d;
+  color: var(--main-header-bg-color);
+  height: unset !important;
+}
+
+.v-select .v-select__selections .v-chip .v-chip__content {
+  padding: 0 6px;
+  white-space: initial;
+  word-break: break-word;
+  min-height: 20px;
+  height: unset;
+}
+
+.v-select .v-select__selections .v-chip:nth-last-child(2) {
+  max-width: calc(100% - 8px);
+}
+
+.v-select .v-select__selections .v-chip:hover .v-chip__close {
+  color: #ff4c00;
+  color: var(--color-error);
+}
+
+.v-input .v-label:not(.v-label--active) {
+  font-size: 1rem;
+}
+.v-input.sb-required-field .v-label:after {
+  content: ' *';
+  color: red;
+}
+
+.v-text-field {
+  margin-top: 12px;
+  color: #202020;
+  color: var(--headings-color);
+}
+
+.v-text-field.primary--text {
+  color: #202020 !important;
+  color: var(--headings-color) !important;
+}
+
+.v-text-field__details .theme--light.v-messages {
+  color: #a9b5c7;
+  color: var(--input-help-text-color);
+}
+
+.v-input .v-label {
+  color: #202020;
+  color: var(--headings-color);
+}
+
+.v-input.primary--text .v-label {
+  color: #202020 !important;
+  color: var(--headings-color) !important;
+}
+
+.theme--light.v-text-field > .v-input__control > .v-input__slot::before {
+  border-color: #6f787e;
+  border-color: var(--color-gray2);
+}
+
+.v-text-field > .v-input__control > .v-input__slot::after,
+.v-text-field > .v-input__control > .v-input__slot::before {
+  bottom: 0;
+}
+
+.v-input .v-input__slot .v-input__icon .v-icon {
+  font-size: 18px;
+}
+
+/* New Design bordered input field style */
+.bordered-input.v-text-field {
+  padding-top: 0;
+  margin-top: 10px;
+}
+.bordered-input.v-text-field > .v-input__control > .v-input__slot::after,
+.bordered-input.v-text-field > .v-input__control > .v-input__slot::before {
+  display: none;
+}
+.bordered-input .v-text-field__slot,
+.bordered-input .v-select__slot {
+  flex-direction: column;
+}
+.bordered-input .v-select__slot {
+  align-items: flex-start;
+  position: relative;
+}
+.bordered-input.v-text-field .v-select__slot .v-input__append-inner {
+  position: absolute;
+  right: 6px;
+  bottom: 0;
+}
+.bordered-input.v-text-field
+  .v-select__slot
+  .v-input__append-inner
+  .v-input__icon {
+  height: auto;
+}
+.bordered-input.v-text-field
+  .v-select__slot
+  .v-input__append-inner
+  .v-input__icon
+  .v-icon {
+  line-height: 36px;
+  font-size: 24px;
+  color: var(--link-color, #0094fb) !important;
+  font-size: 30px;
+}
+.bordered-input label.v-label {
+  transform: none;
+  position: static !important;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000 !important;
+}
+.bordered-input.v-text-field input,
+.bordered-input.v-text-field textarea {
+  border: 1px solid var(--Neutral-100, #707070);
+  padding: 8px 10px;
+  margin-top: 6px;
+  min-height: 36px;
+  font-size: 14px;
+  color: var(--Neutral-600, #202020) !important;
+  box-shadow: 0px 2px 2px 0px rgba(33, 37, 41, 0.06),
+    0px 0px 1px 0px rgba(33, 37, 41, 0.08);
+  text-overflow: ellipsis;
+}
+.bordered-input.v-text-field .v-select__selections {
+  width: 100%;
+  border: 1px solid var(--Neutral-100, #707070);
+  box-shadow: 0px 2px 2px 0px rgba(33, 37, 41, 0.06),
+    0px 0px 1px 0px rgba(33, 37, 41, 0.08);
+  padding-left: 10px;
+  max-height: 36px;
+}
+.bordered-input.v-text-field label + .v-select__selections {
+  margin-top: 6px;
+}
+.bordered-input.v-input--is-disabled.v-text-field
+  label
+  + .v-select__selections {
+  color: black !important;
+  background: var(--Neutral-400, #eeeff0);
+}
+.bordered-input.v-text-field .v-select__selections input {
+  border: none;
+  box-shadow: none;
+  margin-top: 0;
+  padding-left: 0;
+  max-width: calc(100% - 20px);
+  text-overflow: ellipsis;
+}
+.bordered-input.v-input--is-disabled.v-text-field .v-select__selections input {
+  min-height: auto;
+  pointer-events: auto;
+  z-index: -1;
+}
+.bordered-input.v-text-field .v-select__selections .v-select__selection {
+  color: var(--Neutral-600, #202020) !important;
+}
+.bordered-input.v-text-field input:disabled {
+  background: var(--Neutral-400, #eeeff0);
+}
+.bordered-input.v-text-field .v-text-field__details {
+  align-items: center;
+}
+.bordered-input.v-text-field .v-text-field__details .v-messages {
+  min-height: 15px;
+}
+.bordered-input.v-text-field input::-webkit-input-placeholder,
+.bordered-input.v-text-field textarea::placeholder {
+  color: var(--Neutral-300, #999);
+  font-style: italic;
+}
+.input-absolute-append-button {
+  position: absolute !important;
+  left: 100%;
+  bottom: 0;
+  margin-bottom: 20px;
+  margin-left: 8px;
+  height: 32px;
+  &.v-icon {
+    line-height: 36px;
+  }
+}
+.bordered-input.absolute-append-icon .v-input__slot {
+  position: relative;
+}
+.bordered-input.absolute-append-icon .v-input__slot .v-input__append-inner {
+  margin: 0;
+  padding: 0;
+}
+.bordered-input.absolute-append-icon .v-input__slot .v-icon {
+  position: absolute;
+  right: 6px;
+  bottom: 5px;
+  margin: 0;
+}
+.bordered-input.v-autocomplete--is-selecting-index input {
+  opacity: initial;
+}
+
+.inline-input-field .v-text-field__slot {
+  flex-direction: row;
+  align-items: center;
+}
+.inline-input-field .v-text-field__slot input {
+  flex: 1;
+  margin-left: 16px;
+  margin-top: 0;
+}
+
+.inline-input-field .v-text-field__slot {
+  flex-direction: row;
+  align-items: center;
+}
+.inline-input-field .v-text-field__slot input {
+  flex: 1;
+  margin-left: 16px;
+  margin-top: 0;
+}
+
+/* Popup modla styling */
+.v-overlay::before {
+  background-color: #262a34;
+  background-color: var(--overlay-color);
+}
+
+.v-overlay--active::before {
+  opacity: 0.7;
+}
+
+.v-overlay.v-overlay--active + .v-overlay.v-overlay--active {
+  display: none;
+}
+
+.v-dialog {
+  box-shadow: none;
+}
+
+.v-dialog > .v-card {
+  position: relative;
+}
+
+.v-dialog > .v-card > .v-card__title {
+  background-color: #103c5a;
+  background-color: var(--primary-blue-color);
+  padding: 8px 16px;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+.v-dialog > .v-card > .v-card__title * {
+  color: #fff;
+  color: var(--color-white);
+}
+
+.v-dialog > .v-card > .v-card__actions {
+  padding: 0 16px 16px 16px;
+  justify-content: flex-end;
+}
+
+.v-tooltip__content {
+  z-index: 1000 !important;
+}
+.sb-tooltip.v-tooltip__content {
+  background: var(--Neutral-100, #707070);
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 1 !important;
+  padding: 8px 10px;
+}
+
+.v-overlay {
+  z-index: 991;
+}
+
+/* .v-menu__content {
+  z-index: 999 !important;
+} */
+
+.__vuescroll .__rail-is-vertical {
+  right: -1px !important;
+}
+
+/* Toggle switch styles */
+.sb-toggle.v-input--switch .v-input--selection-controls__input {
+  width: 40px;
+}
+.sb-toggle.v-input--selection-controls {
+  margin-top: 0;
+}
+.sb-toggle.v-input--selection-controls:not(.v-input--hide-details)
+  .v-input__slot {
+  margin-bottom: 0;
+}
+.sb-toggle .v-input--switch__thumb {
+  width: 15px;
+  height: 15px;
+  top: calc(50% - 7.5px);
+  box-shadow: none;
+  transform: translate(5px);
+}
+.sb-toggle.v-input--is-dirty .v-input--switch__thumb {
+  color: #fff !important;
+  transform: translate(20px) !important;
+}
+.sb-toggle .v-input--switch__track {
+  height: 20px;
+  border-radius: 10px;
+  top: calc(50% - 10px);
+  opacity: 1;
+}
+.sb-toggle.v-input--is-dirty .v-input--switch__track {
+  color: #0094fb !important;
+}
