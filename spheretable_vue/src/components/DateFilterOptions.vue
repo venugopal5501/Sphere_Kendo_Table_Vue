@@ -12,7 +12,7 @@
       <!-- sort ascending-->
       <div>
         <v-btn
-                    text
+                    flat
 
           color="info"
           :class="sort.asc"
@@ -32,7 +32,7 @@
       <!-- sort descending -->
       <div>
         <v-btn
-                    text
+                    flat
 
           color="info"
           :class="sort.desc"
@@ -57,7 +57,7 @@
       <!-- date is exactly -->
       <div>
         <v-btn
-                    text
+                    flat
 
           color="info"
           :class="operator.eq"
@@ -71,7 +71,7 @@
       <!-- date is before -->
       <div>
         <v-btn
-                    text
+                    flat
 
           color="info"
           :class="operator.lte"
@@ -85,7 +85,7 @@
       <!-- date is after -->
       <div>
         <v-btn
-                    text
+                    flat
 
           color="info"
           :class="operator.gte"
@@ -98,7 +98,7 @@
       <!-- last 7 days -->
       <div>
         <v-btn
-                    text
+                    flat
 
           color="info"
           :class="intervals.week"
@@ -112,7 +112,7 @@
       <!-- last 30 days -->
       <div>
         <v-btn
-                    text
+                    flat
 
           color="info"
           :class="intervals.month"
@@ -126,7 +126,7 @@
       <!-- last 3 months -->
       <div>
         <v-btn
-                    text
+                    flat
 
           color="info"
           :class="intervals.quarter"
@@ -140,8 +140,7 @@
       <!-- last year -->
       <div>
         <v-btn
-                    text
-
+        flat
           color="info"
           :class="intervals.year"
           @mousedown="handleDateClick('year', 'Last year', isUtcTime)"

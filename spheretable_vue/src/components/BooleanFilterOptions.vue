@@ -14,7 +14,7 @@
       <!-- sort ascending-->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="sort.asc"
           @mousedown="handleSortClick('asc')"
@@ -33,7 +33,7 @@
       <!-- sort descending -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="sort.desc"
           @mousedown="handleSortClick('desc')"
@@ -56,7 +56,7 @@
       <!-- True -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="boolean.true"
           @mousedown="handleBooleanClick(true, 'eq')"
@@ -68,7 +68,7 @@
 
       <!-- False -->
       <div>
-        <v-btn text
+        <v-btn flat
           color="info"
           :class="boolean.false"
           @mousedown="handleBooleanClick(false, 'eq')"

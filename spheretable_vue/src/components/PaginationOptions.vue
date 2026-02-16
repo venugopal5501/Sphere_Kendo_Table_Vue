@@ -25,7 +25,7 @@
       <!-- 5 -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="tileClass['5']"
           @mousedown="handlePageSizeOptionClick(5)"
@@ -38,7 +38,7 @@
       <!-- 10 -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="tileClass['10']"
           :disabled="isDisabled_10"
@@ -52,7 +52,7 @@
       <!-- 25 -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="tileClass['25']"
           :disabled="isDisabled_25"
@@ -66,7 +66,7 @@
       <!-- 50 -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="tileClass['50']"
           :disabled="isDisabled_50"
@@ -80,7 +80,7 @@
       <!-- 100 -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="tileClass['100']"
           :disabled="isDisabled_100"
@@ -94,7 +94,7 @@
       <!-- 250 -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="tileClass['250']"
           :disabled="isDisabled_250"
@@ -109,7 +109,7 @@
       <div>
         <v-btn
           v-if="displayAllOption"
-          text
+          flat
           color="info"
           :class="tileClass['all']"
           @mousedown="handlePageSizeOptionClick('all')"

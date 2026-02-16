@@ -6,8 +6,7 @@
           <template v-slot:activator="{ on }">
             <v-btn
               small
-                        text
-
+              flat
               class="k-header-btn"
               :disabled="disabled"
               v-on="!disabled ? on : (showDropdown = false)"

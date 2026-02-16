@@ -20,7 +20,7 @@
     <div>
       <v-btn
         v-if="showSortBtn"
-                  text
+                  flat
 
         small
         :class="sortingClass"

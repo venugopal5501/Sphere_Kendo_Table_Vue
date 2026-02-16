@@ -14,7 +14,7 @@
       <!-- sort ascending-->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="sort.asc"
           @mousedown="handleSortClick('asc')"
@@ -33,7 +33,7 @@
       <!-- sort descending -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="sort.desc"
           @mousedown="handleSortClick('desc')"
@@ -57,7 +57,7 @@
       <!-- equal to -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.eq"
           @mousedown="handleOperatorClick('Equal to', 'eq')"
@@ -73,7 +73,7 @@
       <!-- not equal to -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.neq"
           @mousedown="handleOperatorClick('Not equal to', 'neq')"
@@ -89,7 +89,7 @@
       <!-- greater than or equal to -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.gte"
           @mousedown="handleOperatorClick('Greater than or equal to', 'gte')"
@@ -105,7 +105,7 @@
       <!-- greater than -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.gt"
           @mousedown="handleOperatorClick('Greater than', 'gt')"
@@ -121,7 +121,7 @@
       <!-- less than or equal to -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.lte"
           @mousedown="handleOperatorClick('Less than or equal to', 'lte')"
@@ -137,7 +137,7 @@
       <!-- less than -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.lt"
           @mousedown="handleOperatorClick('Less than', 'lt')"
@@ -153,7 +153,7 @@
       <!-- is null -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="empty.isnull"
           @mousedown="handleEmptyClick('Null', 'isnull')"
@@ -169,7 +169,7 @@
       <!-- is not null -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="empty.isnotnull"
           @mousedown="handleEmptyClick('Not null', 'isnotnull')"
@@ -186,7 +186,7 @@
     <!-- between -->
     <div>
       <v-btn
-        text
+        flat
         color="info"
         :class="operator.between"
         @mousedown="handleOperatorClick('Between', 'between')"

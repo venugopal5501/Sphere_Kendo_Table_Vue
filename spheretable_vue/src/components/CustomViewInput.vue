@@ -115,7 +115,7 @@
                     <v-btn
                       v-if="!customView.disabled"
                       icon
-                                text
+                                flat
 
                       class="k-delete-cv-btn"
                       @click="
@@ -207,7 +207,7 @@
             </v-expansion-panel>
             <v-divider />
             <v-btn
-                        text
+                        flat
 
               class="k-filter-menu-item active k-cv-create-btn"
               color="primary"

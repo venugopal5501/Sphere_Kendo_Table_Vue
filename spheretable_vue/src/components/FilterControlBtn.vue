@@ -12,7 +12,7 @@
           <template v-slot:activator="{ on }">
             <v-btn
               small
-              text
+              flat
               class="k-header-btn k-header-filter-btn"
               :disabled="disabled"
               v-on="on"
@@ -32,7 +32,7 @@
       <v-divider />
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="showFiltersClass"
           :disabled="isOrApplied"
@@ -49,7 +49,7 @@
       </div>
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="hideFiltersClass"
           :disabled="isOrApplied"
@@ -68,7 +68,7 @@
       <div>
         <v-btn
           v-if="showAdvancedFilter"
-          text
+          flat
           color="info"
           class="k-filter-menu-item active"
           @mousedown="handleApplyFilters"
@@ -90,7 +90,7 @@
       <v-divider style="margin-top: 4px; margin-bottom: 2px" />
       <div>
         <v-btn
-          text
+          flat
           color="error"
           class="k-filter-menu-item k-error-menu-item"
           @mousedown="handleClearAllClick"

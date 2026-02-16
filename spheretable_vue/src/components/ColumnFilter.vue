@@ -6,7 +6,7 @@
         <template v-slot:activator="{ on }">
           <!-- TODO: optimize this component after upgrading to vuetify 2 -->
           <v-btn
-            text
+            flat
             icon
             color="link"
             class="k-filter-btn"
@@ -33,7 +33,7 @@
           @set-filter-operator="setFilterOperator" @set-empty-filter="setEmptyFilter"
           @remove-empty-filter="removeEmptyFilter">
           <!-- clear all btn -->
-          <v-btn text color="error" class="k-filter-menu-item k-error-menu-item" @mousedown="clearColumnFilters">
+          <v-btn flat color="error" class="k-filter-menu-item k-error-menu-item" @mousedown="clearColumnFilters">
             Clear All
           </v-btn>
         </text-filter-options>
@@ -42,7 +42,7 @@
         <number-filter-options v-else-if="isNumeric" ref="filter-options" :sortable="column.sortable"
           @set-sort-dir="setSortDir" @set-filter-operator="setFilterOperator" @set-empty-filter="setEmptyFilter"
           @remove-empty-filter="removeEmptyFilter" @set-between="setBetween">
-          <v-btn text color="error" class="k-filter-menu-item k-error-menu-item" @mousedown="clearColumnFilters">
+          <v-btn flat color="error" class="k-filter-menu-item k-error-menu-item" @mousedown="clearColumnFilters">
             Clear All
           </v-btn>
         </number-filter-options>
@@ -50,7 +50,7 @@
         <!-- boolean filter options -->
         <boolean-filter-options v-else-if="isBoolean" ref="filter-options" @remove-boolean-filter="removeBooleanFilter"
           @set-boolean-filter="setBooleanFilter" @set-sort-dir="setSortDir">
-          <v-btn text color="error" class="k-filter-menu-item k-error-menu-item" @mousedown="clearColumnFilters">
+          <v-btn flat color="error" class="k-filter-menu-item k-error-menu-item" @mousedown="clearColumnFilters">
             Clear All
           </v-btn>
         </boolean-filter-options>
@@ -60,7 +60,7 @@
           @set-sort-dir="setSortDir" @set-filter-operator="setFilterOperator" @set-empty-filter="setEmptyFilter"
           @remove-empty-filter="removeEmptyFilter" @set-between="setBetween" @add-date-filter="addDateFilter"
           @change-date-filter="changeDateFilter" @remove-date-filter="removeDateFilter">
-          <v-btn text color="error" class="k-filter-menu-item k-error-menu-item" @mousedown="clearColumnFilters">
+          <v-btn flat color="error" class="k-filter-menu-item k-error-menu-item" @mousedown="clearColumnFilters">
             Clear All
           </v-btn>
         </date-filter-options>

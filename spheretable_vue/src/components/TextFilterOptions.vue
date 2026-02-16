@@ -14,7 +14,7 @@
       <!-- sort ascending-->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="sort.asc"
           @mousedown="handleSortClick('asc')"
@@ -33,7 +33,7 @@
       <!-- sort descending -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="sort.desc"
           @mousedown="handleSortClick('desc')"
@@ -56,7 +56,7 @@
       <!-- contains -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.contains"
           @mousedown="handleOperatorClick('Contains', 'contains')"
@@ -69,7 +69,7 @@
       <!-- does not contain -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.doesnotcontain"
           @mousedown="handleOperatorClick('Does not contain', 'doesnotcontain')"
@@ -82,7 +82,7 @@
       <!-- equal to -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.eq"
           @mousedown="handleOperatorClick('Equal to', 'eq')"
@@ -95,7 +95,7 @@
       <!-- not equal to -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.neq"
           @mousedown="handleOperatorClick('Not equal to', 'neq')"
@@ -108,7 +108,7 @@
       <!-- starts with -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.startswith"
           @mousedown="handleOperatorClick('Starts with', 'startswith')"
@@ -121,7 +121,7 @@
       <!-- ends with -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="operator.endswith"
           @mousedown="handleOperatorClick('Ends with', 'endswith')"
@@ -134,7 +134,7 @@
       <!-- is empty -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="empty.isempty"
           @mousedown="handleEmptyClick('Empty', 'isempty')"
@@ -147,7 +147,7 @@
       <!-- is not empty -->
       <div>
         <v-btn
-          text
+          flat
           color="info"
           :class="empty.isnotempty"
           @mousedown="handleEmptyClick('Not empty', 'isnotempty')"

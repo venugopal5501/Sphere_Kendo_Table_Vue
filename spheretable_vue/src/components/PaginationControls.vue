@@ -25,7 +25,7 @@
       <!-- page navigation controls -->
       <v-flex xs4 class="k-page-nav-ctrls">
         <v-btn
-          text
+          flat
           icon
           color="link"
           :disabled="isOnFirstPage"
@@ -34,7 +34,7 @@
           <v-icon>skip_previous</v-icon>
         </v-btn>
         <v-btn
-          text
+          flat
           icon
           color="link"
           :disabled="isOnFirstPage"
@@ -44,7 +44,7 @@
         </v-btn>
         <span :style="{ padding: '0 8px' }">{{ currPage }}</span>
         <v-btn
-          text
+          flat
           icon
           color="link"
           :disabled="isOnLastPage"
@@ -53,7 +53,7 @@
           <v-icon :size="31">arrow_right</v-icon>
         </v-btn>
         <v-btn
-          text
+          flat
           icon
           color="link"
           :disabled="isOnLastPage"

@@ -12,7 +12,7 @@
           <template v-slot:activator="{ on }">
             <v-btn
               small
-                        text
+                        flat
 
               class="k-header-btn k-header-download-btn"
               :disabled="isDisabled"
@@ -37,7 +37,7 @@
       <v-divider />
       <div v-if="showExcel">
         <v-btn
-                    text
+                    flat
 
           color="info"
           :class="classExcel"
@@ -54,9 +54,7 @@
         </v-btn>
       </div>
       <div>
-        <v-btn
-                    text
-
+        <v-btn flat
           color="info"
           :class="classCsv"
           @mousedown="handleDownloadClick('classCsv')"

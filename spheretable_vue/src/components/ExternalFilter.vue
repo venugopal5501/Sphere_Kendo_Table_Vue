@@ -65,8 +65,7 @@
             <v-layout wrap row class="my-2 filter-btns">
               <v-flex>
                 <v-btn
-                            text
-
+                flat
                   small
                   class="c-pointer apply-btns"
                   :class="{ 'mt-0 ml-1': notModal }"
@@ -84,8 +83,7 @@
               </v-flex>
               <v-flex v-if="!notModal">
                 <v-btn
-                            text
-
+                  flat
                   small
                   outline
                   color="error"
