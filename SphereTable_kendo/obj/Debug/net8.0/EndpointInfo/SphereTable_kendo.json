@@ -22,6 +22,40 @@
         "tags": [
           "Student"
         ],
+        "parameters": [
+          {
+            "name": "skip",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 10
+            }
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "filter",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -74,20 +108,20 @@
       "WeatherForecast": {
         "type": "object",
         "properties": {
-          "date": {
+          "Date": {
             "type": "string",
             "format": "date"
           },
-          "temperatureC": {
+          "TemperatureC": {
             "type": "integer",
             "format": "int32"
           },
-          "temperatureF": {
+          "TemperatureF": {
             "type": "integer",
             "format": "int32",
             "readOnly": true
           },
-          "summary": {
+          "Summary": {
             "type": "string",
             "nullable": true
           }

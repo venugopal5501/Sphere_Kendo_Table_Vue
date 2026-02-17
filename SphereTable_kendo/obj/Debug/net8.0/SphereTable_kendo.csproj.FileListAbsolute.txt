@@ -36,6 +36,7 @@ E:\sphereTable_kendo\SphereTable_kendo\bin\Debug\net8.0\System.CodeDom.dll
 E:\sphereTable_kendo\SphereTable_kendo\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 E:\sphereTable_kendo\SphereTable_kendo\bin\Debug\net8.0\System.Drawing.Common.dll
 E:\sphereTable_kendo\SphereTable_kendo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+E:\sphereTable_kendo\SphereTable_kendo\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
 E:\sphereTable_kendo\SphereTable_kendo\bin\Debug\net8.0\System.Memory.Data.dll
 E:\sphereTable_kendo\SphereTable_kendo\bin\Debug\net8.0\System.Runtime.Caching.dll
 E:\sphereTable_kendo\SphereTable_kendo\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll

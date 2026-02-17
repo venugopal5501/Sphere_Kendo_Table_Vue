@@ -23,11 +23,6 @@ export default new Vuex.Store({
     tables: [],
     promise: null,
     siteConfigValues: {
-      SimpleTableMaxSize: 1000,
-      ActionableTableMaxSize: 1000,
-      GranularTableMaxSize: 5000,
-      IdleTimeOut: 1800000,
-      IdleAlertTime: 60000,
     },
   },
   mutations: {
@@ -78,9 +73,9 @@ export default new Vuex.Store({
     async LOAD_SITE_CONFIG_VALUES({ commit }) {
       // Hardcoded mock of the API response
       const configResponse = [
-        { StandardName: "SimpleTableMaxSize", Value: 1000 },
-        { StandardName: "ActionableTableMaxSize", Value: 1000 },
-        { StandardName: "GranularTableMaxSize", Value: 5000 },
+        { StandardName: "SimpleTableMaxSize", Value: 5 },
+        { StandardName: "ActionableTableMaxSize", Value: 5 },
+        { StandardName: "GranularTableMaxSize", Value: 5 },
         { StandardName: "IdleTimeOut", Value: 1800000 },
         { StandardName: "IdleAlertTime", Value: 60000 },
       ];

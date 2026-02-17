@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "E:\\sphereTable_kendo\\SphereTable_kendo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\models\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:models\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\models\\pageddatarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:models\\pageddatarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:data\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\models\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:models\\pagedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:models\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|e:\\spheretable_kendo\\spheretable_kendo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F7E5BFEF-C27A-49B1-B260-16012F98EC4A}|SphereTable_kendo.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +54,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 231,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\sphereTable_kendo\\SphereTable_kendo\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -52,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Student.cs",
               "DocumentMoniker": "E:\\sphereTable_kendo\\SphereTable_kendo\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
@@ -65,53 +85,122 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "E:\\sphereTable_kendo\\SphereTable_kendo\\Models\\DataAccess.cs",
+              "RelativeDocumentMoniker": "Models\\DataAccess.cs",
+              "ToolTip": "E:\\sphereTable_kendo\\SphereTable_kendo\\Models\\DataAccess.cs",
+              "RelativeToolTip": "Models\\DataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T13:19:31.338Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "PagedDataRequest.cs",
+              "DocumentMoniker": "E:\\sphereTable_kendo\\SphereTable_kendo\\Models\\PagedDataRequest.cs",
+              "RelativeDocumentMoniker": "Models\\PagedDataRequest.cs",
+              "ToolTip": "E:\\sphereTable_kendo\\SphereTable_kendo\\Models\\PagedDataRequest.cs",
+              "RelativeToolTip": "Models\\PagedDataRequest.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAA9wJMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T13:13:48.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PagedResponse.cs",
+              "DocumentMoniker": "E:\\sphereTable_kendo\\SphereTable_kendo\\Models\\PagedResponse.cs",
+              "RelativeDocumentMoniker": "Models\\PagedResponse.cs",
+              "ToolTip": "E:\\sphereTable_kendo\\SphereTable_kendo\\Models\\PagedResponse.cs",
+              "RelativeToolTip": "Models\\PagedResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-17T08:45:37.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "E:\\sphereTable_kendo\\SphereTable_kendo\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "E:\\sphereTable_kendo\\SphereTable_kendo\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T07:11:26.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "E:\\sphereTable_kendo\\SphereTable_kendo\\Models\\Courses.cs",
+              "RelativeDocumentMoniker": "Models\\Courses.cs",
+              "ToolTip": "E:\\sphereTable_kendo\\SphereTable_kendo\\Models\\Courses.cs",
+              "RelativeToolTip": "Models\\Courses.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T07:03:26.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "WeatherForecast.cs",
               "DocumentMoniker": "E:\\sphereTable_kendo\\SphereTable_kendo\\WeatherForecast.cs",
               "RelativeDocumentMoniker": "WeatherForecast.cs",
               "ToolTip": "E:\\sphereTable_kendo\\SphereTable_kendo\\WeatherForecast.cs",
               "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T13:27:43.179Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentController.cs",
               "DocumentMoniker": "E:\\sphereTable_kendo\\SphereTable_kendo\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
               "ToolTip": "E:\\sphereTable_kendo\\SphereTable_kendo\\Controllers\\StudentController.cs",
               "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAIwJUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T13:54:47.008Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\sphereTable_kendo\\SphereTable_kendo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\sphereTable_kendo\\SphereTable_kendo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T13:46:29.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "StudentDbContext.cs",
               "DocumentMoniker": "E:\\sphereTable_kendo\\SphereTable_kendo\\Data\\StudentDbContext.cs",
               "RelativeDocumentMoniker": "Data\\StudentDbContext.cs",
               "ToolTip": "E:\\sphereTable_kendo\\SphereTable_kendo\\Data\\StudentDbContext.cs",
               "RelativeToolTip": "Data\\StudentDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAD4vw0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-09T13:28:24.605Z",
               "EditorCaption": ""

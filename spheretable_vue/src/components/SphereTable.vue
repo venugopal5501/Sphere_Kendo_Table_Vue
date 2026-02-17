@@ -2596,6 +2596,7 @@ export default {
         }
         // set total items and filtered items counts
         this.totalItemsCount = response.data.TotalItemsCount || items.length;
+        console.log(response.data);
         this.isServerSide =
           (this.totalItemsCount > this.tableMaxSize || this.serverSide) &&
           !this.clientSide;

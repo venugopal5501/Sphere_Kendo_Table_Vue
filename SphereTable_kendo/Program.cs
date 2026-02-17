@@ -11,6 +11,20 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<StudentDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowVue",
+        policy => policy
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod());
+});
+
+builder.Services.AddControllers().AddJsonOptions(options =>
+{
+    options.JsonSerializerOptions.PropertyNamingPolicy = null;
+}); ;
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -19,6 +33,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseHttpsRedirection();
+
+app.UseCors("AllowVue");
 
 app.UseAuthorization();
 
